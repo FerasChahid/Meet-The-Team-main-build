@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+} 
+
+body {
+    background: url('/img.1.png');
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    background-size: cover;
+}
+
+.pictures {
+    width: 320px;
+    color: white;
+    font-size: 200%;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#william:hover{
+    opacity: 0.5;
+}
+
+#simanto:hover{
+    opacity: 0.5;
+}
+
+#feras:hover{
+    opacity: 0.5;
+}
+
+#mohammad:hover{
+    opacity: 0.5;
+}
+
+h1 {
+    text-align: center;
+    color:black;
+    font-size: 60px;
+
+}
+
+.items:hover {
+    opacity: 0.5;
+}
+
+.items {
+    color: #573672;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+.team {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.teamName{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    color: rgb(10, 15, 20);
+} 
+
+.teamName p {
+    font-weight: bold;
+    color:black;
+}
+
+p {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+#ascCode{
+    border: 5px solid #9a50cd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: rgba(187, 185, 185, 0.5);
+}
+
+#whyCode{
+    border: 5px solid #9a50cd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: rgba(187, 185, 185, 0.5);
+}
+
+#contactUs{
+    border: 5px solid #9a50cd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: rgba(187, 185, 185, 0.5);
+}
+
+.indent {
+    margin: 25px;
+}
+
+.team-member:hover .funFact {
+    display: block;
+}
+
+.screenTImer{
+    display:flex;
+    align-items: end;
+}
